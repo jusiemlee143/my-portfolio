@@ -36,7 +36,7 @@ export default function Hero() {
             {/* Badge */}
 
             <div className="inline-flex items-center rounded-full border border-neutral-300 px-4 py-2 text-xs font-semibold uppercase tracking-[0.3em] text-neutral-600">
-              Computer Engineer • Full Stack Developer
+              Computer Engineer • Full Stack & IoT Developer
             </div>
 
             {/* Title */}
@@ -53,11 +53,11 @@ export default function Hero() {
               xl:text-8xl
               "
             >
-              Building software
+              Building modern web applications
               <br />
-              that connects
+              and intelligent embedded systems
               <br />
-              ideas with reality.
+              that solve real-world problems.
             </h1>
 
             {/* Description */}
@@ -74,7 +74,7 @@ export default function Hero() {
               lg:mx-0
               "
             >
-              Hi, I'm <strong>Jusiem Pontejon</strong>, a Computer Engineering
+              Hi, I'm <strong>Jusiem Lee Pontejon</strong>, a Computer Engineering
               graduate passionate about building modern web applications,
               embedded systems, and digital experiences that solve real-world
               problems.

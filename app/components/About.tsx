@@ -12,11 +12,18 @@ export default function About() {
     >
       <div className="max-w-7xl mx-auto px-8">
 
-        <SectionTitle
-            eyebrow="About"
-            title="Building software that solves real problems."
-            description="I enjoy combining creativity with engineering to create modern web applications and embedded systems that are fast, clean, and user-friendly."
-        />
+        <div className="text-center">
+  <p className="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-neutral-500">
+    Who I Am
+  </p>
+
+  <SectionTitle title="About Me" />
+
+  <p className="mx-auto mt-6 max-w-3xl text-base leading-8 text-neutral-600">
+    Get to know more about my background, passion, and the technologies
+    I use to build modern web applications and IoT solutions.
+  </p>
+</div>
         
         <div className="grid lg:grid-cols-2 gap-20 items-center">
 
@@ -55,23 +62,20 @@ export default function About() {
             </h3>
 
             <p className="mt-8 text-lg text-neutral-600 leading-9">
-              I'm a Computer Engineering graduate passionate about creating
-              modern web applications, embedded systems, and intuitive digital
-              experiences. I enjoy solving real-world problems through clean
-              code and thoughtful design.
+              I am a Computer Engineering graduate from Cebu Institute of Technology – University 
+              with a strong interest in Full Stack Web Development, Embedded Systems, and IoT.
             </p>
 
             <p className="mt-6 text-lg text-neutral-600 leading-9">
-              My interests span full-stack web development, IoT, embedded
-              systems, and UI/UX design. Whether it's building scalable web
-              applications or integrating hardware with software, I love
-              bringing ideas to life.
+              I enjoy creating responsive web applications, integrating hardware with software, 
+              and building practical solutions that improve everyday processes. 
+              My experience ranges from developing web systems using Next.js and MongoDB 
+              to creating IoT-based monitoring systems using Arduino and Firebase.
             </p>
 
             <p className="mt-6 text-lg text-neutral-600 leading-9">
-              Outside of coding, I'm always learning new technologies,
-              exploring design trends, and finding better ways to build
-              efficient, elegant software.
+              I continuously seek opportunities to expand my technical knowledge while building clean, 
+              scalable, and user-focused applications.
             </p>
 
             <div className="grid grid-cols-2 gap-8 mt-12">

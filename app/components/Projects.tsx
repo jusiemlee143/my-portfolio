@@ -7,70 +7,96 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="py-36"
+      className="py-20 sm:py-24 lg:py-32"
     >
       <div className="container">
 
-        <SectionTitle
-          eyebrow="Featured Work"
-          title="Projects I'm proud of."
-          description="A selection of projects that showcase my experience in full-stack development, embedded systems, and user-focused design."
-        />
+        <div className="text-center">
+  <p className="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-neutral-500">
+    Featured Projects
+  </p>
 
-        <ProjectShowcase
-          title="Lab Borrowing System"
-          subtitle="Featured Project"
-          image="/projects/borrowing-system.png"
-          description="A role-based inventory management platform with authentication, request approval workflows, borrower slips, and inventory tracking for educational laboratories."
-          technologies={[
-            "Next.js",
-            "MongoDB",
-            "JWT",
-            "Tailwind",
-            "TypeScript",
-          ]}
-          github="https://github.com/jusiemlee143"
-        />
+  <SectionTitle title="Projects that showcase my skills and experience." />
 
-        <ProjectShowcase
-          reverse
-          title="Automated Corn Shredder"
-          subtitle="Capstone Project"
-          image="/projects/corn-shredder.png"
-          description="An IoT-powered machine using ESP32, Firebase Realtime Database, load cell monitoring, and a mobile application to monitor shredding operations in real time."
-          technologies={[
-            "ESP32",
-            "Firebase",
-            "Arduino",
-            "IoT",
-            "Sensors",
-          ]}
-        />
+  <p className="mx-auto mt-6 max-w-3xl text-base leading-8 text-neutral-600">
+    These projects highlight my experience in full-stack web development,
+    embedded systems, IoT, and creating practical software solutions.
+  </p>
+</div>
 
-        <ProjectShowcase
-          title="Coffee Ally"
-          subtitle="Business Website"
-          image="/projects/coffee-ally.png"
-          description="A modern landing page built for a local coffee business featuring responsive design, elegant UI, and smooth animations using Next.js."
-          technologies={[
-            "Next.js",
-            "React",
-            "Tailwind CSS",
-          ]}
-        />
+        <div className="mt-20 space-y-28">
 
-        <ProjectShowcase
-          reverse
-          title="Safari Birthday Invitation"
-          subtitle="Creative Project"
-          image="/projects/safari-invitation.png"
-          description="An interactive invitation website with playful animations, RSVP functionality, and a safari-inspired design created for a birthday celebration."
-          technologies={[
-            "Next.js",
-            "Framer Motion",
-            "Tailwind CSS",
-          ]}
-        />
+          <ProjectShowcase
+            title="Laboratory Borrowing System"
+            subtitle="Full Stack Web Application"
+            image="/projects/sample.png"
+            description="A role-based laboratory equipment borrowing system that streamlines inventory management, borrowing requests, approval workflows, and borrower tracking for students and instructors."
+            technologies={[
+              "Next.js",
+              "React",
+              "TypeScript",
+              "Node.js",
+              "MongoDB",
+              "Tailwind CSS",
+            ]}
+            github="https://github.com/jusiemlee143"
+          />
+
+          <ProjectShowcase
+            reverse
+            title="CrowdFunding System"
+            subtitle="Web Application"
+            image="/projects/sample.png"
+            description="A crowdfunding platform that enables users to create fundraising campaigns, securely authenticate accounts, and monitor donations in real time to support various community initiatives."
+            technologies={[
+              "JavaScript",
+              "Node.js",
+              "MongoDB",
+              "Firebase",
+            ]}
+            github="https://github.com/jusiemlee143"
+          />
+
+          <ProjectShowcase
+            title="Automated Smart Bin"
+            subtitle="IoT Project"
+            image="/projects/sample.png"
+            description="An IoT-enabled smart waste management system that monitors bin capacity using ultrasonic sensors and provides real-time monitoring to improve waste collection efficiency."
+            technologies={[
+              "Arduino",
+              "IoT",
+              "Ultrasonic Sensor",
+              "C Programming",
+            ]}
+          />
+
+          <ProjectShowcase
+            reverse
+            title="Lee's Café Hub"
+            subtitle="WordPress Website"
+            image="/projects/sample.png"
+            description="A responsive coffee shop website developed during my internship, featuring an interactive menu, modern landing page, and an easy-to-use stall booking system."
+            technologies={[
+              "WordPress",
+              "HTML",
+              "CSS",
+              "Responsive Design",
+            ]}
+          />
+
+          <ProjectShowcase
+            title="Pet Store Management System"
+            subtitle="Point of Sale System"
+            image="/projects/sample.png"
+            description="A desktop-based point-of-sale and inventory management system that handles product inventory, sales transactions, receipt printing, and sales reporting."
+            technologies={[
+              "C#",
+              ".NET",
+              "SQL",
+            ]}
+          />
+
+        </div>
 
       </div>
     </section>

@@ -22,8 +22,8 @@ const socials = [
   {
     name: "LinkedIn",
     icon: FaLinkedin,
-    href: "https://linkedin.com/in/your-linkedin",
-    value: "linkedin.com/in/your-linkedin",
+    href: "https://www.linkedin.com/in/jusiem-lee-pontejon-96a798401/",
+    value: "linkedin.com/in/jusiem-lee-pontejon-96a798401/",
   },
 ];
 
@@ -35,11 +35,19 @@ export default function Contact() {
     >
       <div className="container">
 
-        <SectionTitle
-          eyebrow="Contact"
-          title="Let's build something amazing together."
-          description="I'm always open to discussing new opportunities, collaborations, or simply connecting with fellow developers."
-        />
+        <div className="text-center">
+  <p className="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-neutral-500">
+    Get In Touch
+  </p>
+
+  <SectionTitle title="Let's build something together." />
+
+  <p className="mx-auto mt-6 max-w-3xl text-base leading-8 text-neutral-600">
+    I'm currently open to entry-level opportunities, freelance work,
+    and collaborations involving web development, embedded systems,
+    and IoT solutions. Feel free to reach out—I'd love to connect.
+  </p>
+</div>
 
         <div className="grid lg:grid-cols-2 gap-16 mt-20">
 
